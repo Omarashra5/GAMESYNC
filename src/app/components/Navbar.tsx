@@ -4,6 +4,8 @@ import { Gamepad2, Search, Heart, User, LogOut, ChevronDown, Menu, X, Shuffle } 
 import { useAuth } from "../context/AuthContext";
 import { useGames } from "../context/GamesContext";
 import { motion } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
+
 export function Navbar() {
   const { user, logout, openLoginModal } = useAuth();
 

@@ -5,6 +5,7 @@ import { Game } from "../context/GamesContext";
 import { useGames } from "../context/GamesContext";
 import { useAuth } from "../context/AuthContext";
 import { motion } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 const FEATURED_OVERRIDE = [
   {
     id: 452,
