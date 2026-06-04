@@ -1,0 +1,29 @@
+/* Gaming Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+  border-left: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    #00e5ff,
+    #7c3aed,
+    #ff0080
+  );
+  border-radius: 999px;
+  border: 2px solid #0f172a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  filter: brightness(1.2);
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #7c3aed #0f172a;
+}
