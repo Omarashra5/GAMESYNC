@@ -3,8 +3,7 @@ import { Heart, LogIn } from "lucide-react";
 import { useGames } from "../context/GamesContext";
 import { useAuth } from "../context/AuthContext";
 import { GameCard } from "../components/GameCard";
-import { motion } from "motion/react";
-
+import { motion } from "framer-motion";
 export default function FavoritesPage() {
   const { games, favorites } = useGames();
   const { user, openLoginModal } = useAuth();

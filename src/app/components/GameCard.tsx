@@ -4,8 +4,7 @@ import { Heart, Monitor, Globe, ExternalLink } from "lucide-react";
 import { Game } from "../context/GamesContext";
 import { useGames } from "../context/GamesContext";
 import { useAuth } from "../context/AuthContext";
-import { motion } from "motion/react";
-
+import { motion } from "framer-motion";
 interface GameCardProps {
   game: Game;
   index?: number;

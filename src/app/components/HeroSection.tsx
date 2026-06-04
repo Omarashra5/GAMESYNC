@@ -4,8 +4,7 @@ import { Play, Heart, Star, Users, ChevronLeft, ChevronRight } from "lucide-reac
 import { Game } from "../context/GamesContext";
 import { useGames } from "../context/GamesContext";
 import { useAuth } from "../context/AuthContext";
-import { motion, AnimatePresence } from "motion/react";
-
+import { motion } from "framer-motion";
 const FEATURED_OVERRIDE = [
   {
     id: 452,

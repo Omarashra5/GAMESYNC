@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { X, Gamepad2, Shield, Zap } from "lucide-react";
 import { useAuth } from "../context/AuthContext";
-import { motion, AnimatePresence } from "motion/react";
-
+import { motion } from "framer-motion";
 export function LoginModal() {
   const { showLoginModal, closeLoginModal, login } = useAuth();
   const [loading, setLoading] = useState(false);

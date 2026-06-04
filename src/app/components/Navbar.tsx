@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router";
 import { Gamepad2, Search, Heart, User, LogOut, ChevronDown, Menu, X, Shuffle } from "lucide-react";
 import { useAuth } from "../context/AuthContext";
 import { useGames } from "../context/GamesContext";
-import { motion, AnimatePresence } from "motion/react";
+import { motion } from "framer-motion";
 export function Navbar() {
   const { user, logout, openLoginModal } = useAuth();
 

@@ -4,8 +4,7 @@ import { useGames } from "../context/GamesContext";
 import { GameCard, SkeletonCard } from "../components/GameCard";
 import { HeroSection } from "../components/HeroSection";
 import { useNavigate } from "react-router";
-import { motion } from "motion/react";
-
+import { motion } from "framer-motion";
 const FILTERS = [
   { id: "all" as const, label: "All Games", icon: LayoutGrid },
   { id: "pc" as const, label: "PC", icon: Monitor },

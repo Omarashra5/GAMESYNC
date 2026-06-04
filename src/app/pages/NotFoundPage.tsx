@@ -1,6 +1,5 @@
 import { Link } from "react-router";
-import { motion } from "motion/react";
-
+import { motion } from "framer-motion";
 export default function NotFoundPage() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center gap-6" style={{ background: "#0B0F1A" }}>

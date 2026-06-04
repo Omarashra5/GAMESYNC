@@ -4,8 +4,7 @@ import { ArrowLeft, Heart, ExternalLink, Monitor, Globe, Calendar, Building2, Us
 import { useGames, Game, GameDetails } from "../context/GamesContext";
 import { useAuth } from "../context/AuthContext";
 import { GameCard, SkeletonCard } from "../components/GameCard";
-import { motion } from "motion/react";
-
+import { motion } from "framer-motion";
 export default function GameDetailsPage() {
   const { id } = useParams();
   const navigate = useNavigate();

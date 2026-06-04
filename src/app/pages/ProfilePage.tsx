@@ -3,8 +3,7 @@ import { Heart, Clock, LogOut, User, Mail, Calendar, Gamepad2, LogIn } from "luc
 import { useAuth } from "../context/AuthContext";
 import { useGames } from "../context/GamesContext";
 import { GameCard } from "../components/GameCard";
-import { motion } from "motion/react";
-
+import { motion } from "framer-motion";
 export default function ProfilePage() {
   const { user, logout, openLoginModal } = useAuth();
   const { games, favorites, recentlyViewed } = useGames();
